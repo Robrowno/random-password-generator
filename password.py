@@ -1,4 +1,6 @@
 # random password generator
+import os
+import sys
 import random
 import string
 
@@ -27,3 +29,4 @@ def generate_password():
     return "".join(password)
 
 print(generate_password)
+print("Hello World")
