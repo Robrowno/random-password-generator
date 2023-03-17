@@ -28,5 +28,4 @@ def generate_password():
     # returns a string of the new password
     return "".join(password)
 
-print(generate_password)
-print("Hello World")
+print("Your password is " + generate_password())
